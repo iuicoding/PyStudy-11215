@@ -1,4 +1,6 @@
-if score == 100
+score = int(input("입력"))
+
+if score == 100:
     print("1등급")
 elif 90 < score:
     print("2등급")
@@ -15,10 +17,10 @@ alist = [10303, 10205, 11215, 10319]
 
 print(alist)
 
-if 11215 in alist
+if 11215 in alist:
     print("이선민 출석")
 
-if 10319 not in alist
+if 10319 not in alist:
     print("김가인 결석")
 
 del alist[10303]
